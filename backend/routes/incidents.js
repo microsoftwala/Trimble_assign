@@ -38,7 +38,7 @@ router.post("/", authMiddleware, async (req, res) => {
 
   //aLERT mail if rain or thunderstorm
   const type = (req.body.type || "").toLowerCase();
-  if (type.includes("rain") || type.includes("thunderstorm")) {
+  if (type.includes("rain") || type.includes("thunderstorm") || type.includes("flood")) {
     try {
       // Get all user emails from the users table
       const result = await conn.query("SELECT email FROM users WHERE email IS NOT NULL AND email <> ''");

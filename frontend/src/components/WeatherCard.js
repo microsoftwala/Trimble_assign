@@ -21,29 +21,11 @@ const LoadingSpinner = () => (
   </div>
 );
 
-export default function WeatherCard() {
-  const [weather, setWeather] = useState(null);
+export default function WeatherCard({area, condition,desc, temp, humidity}) {
 
-  useEffect(() => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const lat = position.coords.latitude;
-          const lon = position.coords.longitude;
-          console.log("Place Latitude and Longitude:", lat, lon);
+  
 
-          getChennaiWeather(lat, lon).then(setWeather).catch(console.error);
-        },
-        (error) => {
-          console.error("Geolocation error:", error);
-        }
-      );
-    } else {
-      console.error("Geolocation is not supported by this browser.");
-    }
-  }, []);
-
-  if (!weather) return <LoadingSpinner />;
+  if (!area) return <LoadingSpinner />;
 
   return (
     <div
@@ -57,6 +39,8 @@ export default function WeatherCard() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
+        width: "28rem",
+        maxWidth: "28rem",
       }}
     >
       <h2
@@ -69,7 +53,7 @@ export default function WeatherCard() {
           userSelect: "none",
         }}
       >
-        Chennai Weather
+        {area} Weather
       </h2>
 
       <div
@@ -84,10 +68,10 @@ export default function WeatherCard() {
         }}
       >
         {[
-          { icon: "🌡️", label: "Temperature", value: `${weather.temperature}°C` },
-          { icon: "💧", label: "Humidity", value: `${weather.humidity}%` },
-          { icon: "🌥️", label: "Condition", value: weather.weather },
-          { icon: "🌧️", label: "Rainfall (1h)", value: `${weather.rainfall} mm` },
+          { icon: "🌡️", label: "Temperature", value: `${temp}` },
+          { icon: "💧", label: "Humidity", value: `${humidity}` },
+          { icon: "🌥️", label: "Condition", value: `${condition}` },
+          { icon: "📝", label: "Description", value: `${desc}` },
         ].map(({ icon, label, value }) => (
           <p
             key={label}
