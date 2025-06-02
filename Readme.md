@@ -1,4 +1,4 @@
-# Flood Management Dashboard
+# Flood Management Application
 
 =====================================
 ## 📘 Table of Contents
