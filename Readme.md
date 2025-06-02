@@ -450,6 +450,7 @@ Trimble/
   - Use load balancers and auto-scaling for high traffic
   - Implement caching mechanisms (Redis, Memcached) for frequently accessed data
   - Optimize database queries and schema for better performance
+  - Consider using a message queue (RabbitMQ, Celery) for task processing
 
 - **User Experience:**
   - Conduct user research and usability testing to improve the app's user experience
@@ -475,6 +476,25 @@ Trimble/
   - Use project management tools like Trello, Asana, or Jira to track progress and
   - Assign tasks and deadlines
 
+- **More Feature Want to add:**
+  - In future thinking to add multiple route the escape during flood from Path A to Path B.
+  - Connect multiple risk zone to safe zone.
+  - Coordinate between multiple admin to publish.
+  - Add multiple language support.
+  - Add multiple messaging support.
+  - Add multiple notification support.
+  - Add multiple analytics support.
+  - Add multiple security support.
+  - Add multiple backup support.
+  - Add multiple feedback support.
+  - Add multiple rating support.
+  - Add multiple review support.
+  - Add multiple comment support.
+  - Add multiple like support.
+  - Add multiple share support.
+  - Add multiple follow support.
+  - Add multiple report support.
+  - Use ML and DL to give good suggestion for safe route during flood.
 
 ---
 
