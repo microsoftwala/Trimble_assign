@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prakhar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@turf/buffer": "^7.2.0",
+    "@turf/helpers": "^7.2.0",
+    "@turf/turf": "^7.2.0",
+    "axios": "^1.9.0",
+    "backend": "file:",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.3",
+    "pg": "^8.16.0",
+    "turf": "^3.0.14"
+  }
+}

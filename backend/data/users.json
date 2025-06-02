@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1748596288446,
+    "username": "Prakhar1",
+    "password": "$2b$10$R4mxkmujaZ9ujcJRBYkbJOuujfRu7aem4ohj48rPvmdtGixzfPpFO",
+    "role": "admin"
+  },
+  {
+    "id": 1748596313743,
+    "username": "Prakhar2",
+    "password": "$2b$10$OP1QvJAGQj.OqNLZNT6KY./X/PmC.nPXXxEolPoxRbZZgWMalJP8y",
+    "role": "agent"
+  }
+]
