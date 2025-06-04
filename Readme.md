@@ -21,7 +21,7 @@
   - [Prerequisites](#prerequisites)  
   - [1. Clone the Repository](#1-clone-the-repository)  
   - [2. Backend Setup and How to Run](#2-backend-setup-and-how-to-run)   
-  - [3. Frontend Setup and How to Run](#3-frontend-setup-and-how-to-run) // 
+  - [3. Frontend Setup and How to Run](#3-frontend-setup-and-how-to-run) 
 - [Usage](#usage)  
 - [Environment Variables](#environment-variables)  
 - [Project Structure](#project-structure)  
@@ -344,7 +344,7 @@ nodemon index.js (it will automatically re-run)
 cd ../frontend
 npm install
 npm start
-
+```
 ---
 
 ## Usage
