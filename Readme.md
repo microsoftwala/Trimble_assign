@@ -9,7 +9,7 @@
 - [GIS Tools & Technology](#gisspatial-data)  
 - [Table of Contents](#-table-of-contents)  
 - [Features](#features)  
-- [Frontend (React)](#frontend-react)  
+- [Frontend (React)](#1-frontend-react)  
   - [Key Pages & Components](#key-pages--components)  
   - [How it Works](#how-it-works-frontend)  
 - [Analytical Thinking: Problem-Solving Approach](#analytical-thinking-problem-solving-approach)  
