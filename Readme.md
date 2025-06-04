@@ -6,23 +6,22 @@
 - [Overview](#overview)  
 - [Key Components](#key-components)  
 - [Basic Architecture of Application](#basic-architecture-of-application)  
-- [GIS Tools & Technology](#gisspatial-data)  
-- [Table of Contents](#-table-of-contents)  
+- [GIS Tools & Technology](#gis-tools--technology)  
 - [Features](#features)  
-- [Frontend (React)](#1-frontend-react)  
+- [Frontend (React)](#frontend-react)  
   - [Key Pages & Components](#key-pages--components)  
-  - [How it Works](#how-it-works-frontend)  
+  - [How it Works](#how-it-works)  
 - [Analytical Thinking: Problem-Solving Approach](#analytical-thinking-problem-solving-approach)  
 - [Backend (Node.js/Express)](#backend-nodejsexpress)  
   - [Key Endpoints](#key-endpoints)  
-  - [How it Works](#how-it-works-backend)  
+  - [How it Works](#how-it-works)  
 - [Database (PostgreSQL)](#database-postgresql)  
 - [Email Notifications](#email-notifications)  
-- [Setup & Installation](#setup--installation)  
+- [Setup & Installation](#setup--installation-for-both-frontend-and-backend)  
   - [Prerequisites](#prerequisites)  
-  - [1. Clone the Repository](#clone-the-repository)  
-  - [2. Backend Setup and How to Run](#backend-setup-and-how-to-run)  
-  - [3. Frontend Setup and How to Run](#frontend-setup-and-how-to-run)  
+  - [1. Clone the Repository](#1-clone-the-repository)  
+  - [2. Backend Setup and How to Run](#2-backend-setup-and-how-to-run)   
+  - [3. Frontend Setup and How to Run](#3-frontend-setup-and-how-to-run) // 
 - [Usage](#usage)  
 - [Environment Variables](#environment-variables)  
 - [Project Structure](#project-structure)  
@@ -150,13 +149,13 @@ This project a Heavy rainfall is forecasted for the upcoming week, and emergency
      │            PostgreSQL DB      |     OpenWeatherMap (API Feed)              │
      │            + PostGIS          |     OpenRouteService (API Feed)            │
      └────────────────────────────────────────────────────────────────────────────┘
+```
+---
 
 
 
 
-
-
-## GIS Tools & Technology
+## GIS Tools & Technology 
 1. Leaflet.js (Frontend Map Visualization)
       A lightweight open-source JavaScript library for interactive maps.
 
@@ -345,7 +344,6 @@ nodemon index.js (it will automatically re-run)
 cd ../frontend
 npm install
 npm start
-```
 
 ---
 
