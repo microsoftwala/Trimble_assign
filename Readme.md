@@ -34,7 +34,7 @@
 - [Practical Utility: Real-World Applicability and User Value](#practical-utility-real-world-applicability-and-user-value)
 - [CI/CD Integration](#cicd-integration)
 - [Using PostGIS for Spatial Data](#using-postgis-for-spatial-data)
-
+- [PromptsOverview](#prompts-overview)
 
 
 ### For Reference -> {https://www.youtube.com/watch?v=CPD0OYktRis}
@@ -886,3 +886,25 @@ Throughout the development of this project, I prioritized performance and effici
 
 By following these strategies, I ensured that the Chennai Emergency Management Dashboard delivers a fast, efficient, and scalable experience for all users, even under heavy load or during critical emergency events.
 
+
+
+
+
+## Prompts Overview
+1. GIS tools and spatial analysis: Leaflet.js, Mapbox, OpenLayers, etc.
+
+2. Give me api for reason wise for my project and example implementation also.
+
+3. Routing to safe zones in Chennai add how to implement with example code.
+
+4. How to work with weatherapi and route api in javascript.
+
+5. I want for 1 week information possibility also using weather api.
+
+6. How to make connection between Postgres and node js.
+
+7. How to use pg (important for connection between Postgres and Node)
+
+8. Some error related to frontend.
+
+9. How to use Leaflet and React together.
